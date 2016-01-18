@@ -24,7 +24,7 @@ from django.utils.six.moves import urllib
 from mapit.models import Type, NameType, Country, CodeType
 
 
-DATA_DIRECTORY = os.path.join(os.path.dirname(__file__), '..', '..', '..', 'data')
+DATA_DIRECTORY = os.path.join(os.path.dirname(__file__), '..', '..', 'data')
 
 
 class Command(LabelCommand):
